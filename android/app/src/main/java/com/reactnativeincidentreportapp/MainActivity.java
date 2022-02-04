@@ -1,6 +1,7 @@
 package com.reactnativeincidentreportapp;
 
 import com.facebook.react.ReactActivity;
+import android.os.Bundle;
 
 public class MainActivity extends ReactActivity {
 
@@ -11,5 +12,9 @@ public class MainActivity extends ReactActivity {
   @Override
   protected String getMainComponentName() {
     return "ReactNativeIncidentReportApp";
+  }
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
   }
 }
