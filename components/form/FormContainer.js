@@ -24,7 +24,7 @@ const FormContainer = props => {
         source={props.BgImage}
         resizeMode="cover"
         style={styles.bottom}
-        blurRadius={99}>
+        blurRadius={100}>
         <ScrollView>
           <View style={styles.formContent}>{props.children}</View>
         </ScrollView>

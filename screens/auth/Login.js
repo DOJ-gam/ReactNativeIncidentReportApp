@@ -42,7 +42,7 @@ const Login = ({navigation}) => {
           <Text style={{fontSize: 17, color: '#fff'}}>
             Dont have an account?{' '}
           </Text>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate('Signup')}>
             <Text style={{fontSize: 17, color: 'tomato'}}>Sign up</Text>
           </TouchableOpacity>
         </View>
